@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    background: linear-gradient(135deg, #000000 0%, #0000ff 100%);
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 1rem;
+    position: fixed; /* Keeps navbar fixed on the left side */
+    top: 60px; /* Adjust this if the header height changes */
+    left: 0;
+    width: 200px; /* Adjust width as needed */
+    height: calc(100vh - 60px); /* Full height minus header height */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Optional shadow for better separation */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+.main {
+    margin-left: 200px; /* Space for the fixed navbar */
+    padding: 2rem;
+    color: #fff;
+    flex: 1;
+}
+
+.section {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 0;
+}
