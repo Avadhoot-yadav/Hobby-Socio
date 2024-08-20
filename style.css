@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'monospace', cursive;
     color: #fff;
     background: linear-gradient(135deg, #000000 0%, #0000ff 100%);
     scroll-behavior: smooth;
@@ -18,8 +18,8 @@ body {
 }
 
 nav {
-    background: #444;
-    color: #fff;
+    background: #fff;
+    color: #444;
     padding: 1rem;
     position: fixed; /* Keeps navbar fixed on the left side */
     top: 60px; /* Adjust this if the header height changes */
