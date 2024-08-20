@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'monospace', cursive;
+    font-family: 'Arial', cursive;
     color: #fff;
     background: linear-gradient(135deg, #000000 0%, #0000ff 100%);
     scroll-behavior: smooth;
