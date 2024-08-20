@@ -18,8 +18,8 @@ body {
 }
 
 nav {
-    background: #fff;
-    color: #444;
+    background: #444;
+    color: #fff;
     padding: 1rem;
     position: fixed; /* Keeps navbar fixed on the left side */
     top: 60px; /* Adjust this if the header height changes */
